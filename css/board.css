@@ -1,19 +1,23 @@
 #all-body{
     width: 100%;
     height: auto;
+
 }
 
 #chart-body{
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
 }
+
 
 
 .canvas-body{
    width: 30%;
+   margin-top: 20px;
+   
 }
 
 canvas{
     background-color: white;
-    margin: 5px;
 }

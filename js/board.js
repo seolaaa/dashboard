@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         labels: labels3,
         datasets: [{
           label: '2022',
-          backgroundColor: 'rgb(255, 204, 051)',
+          backgroundColor: 'rgb(204, 102, 153)',
           borderColor: 'rgb(255, 99, 132)',
           data: [20, 10, 5, 32, 12, 20, 15],
         },
