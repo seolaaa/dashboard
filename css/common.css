@@ -1,4 +1,7 @@
 /*기본설정*/
+body{
+    margin: 0px;
+}
 .hidden {
     width: 1px;
     height: 1px;
