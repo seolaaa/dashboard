@@ -76,14 +76,17 @@ document.addEventListener('DOMContentLoaded',()=>{
           backgroundColor: 'rgb(255, 204, 051)',
           borderColor: 'rgb(255, 99, 132)',
           data: [20, 10, 5, 32, 12, 20, 15],
-        }],
-        datasets: [{
+        },
+        
+        {
           label: '2023',
           backgroundColor: 'rgb(255, 198, 198)',
           borderColor: 'rgb(255, 99, 132)',
           data: [10, 30, 15, 22, 8, 12, 5],
-        }]
+        }],
       };
+        
+      
      
     
       const config3 = {
