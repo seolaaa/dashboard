@@ -1,16 +1,19 @@
 #all-body{
     width: 100%;
     height: auto;
-    display: flex;
-    flex-direction: row;
 }
 
 #chart-body{
-    width: 1200px;
-    margin: 0px auto;
+    width: 100%;
+    display: flex;
 }
 
 
 .canvas-body{
-   width: 50%;
+   width: 30%;
+}
+
+canvas{
+    background-color: white;
+    margin: 5px;
 }

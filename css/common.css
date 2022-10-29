@@ -1,6 +1,7 @@
 /*기본설정*/
 body{
     margin: 0px;
+    background-color: #d6d6d6;
 }
 .hidden {
     width: 1px;
