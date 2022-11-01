@@ -119,6 +119,34 @@ document.addEventListener('DOMContentLoaded',()=>{
       };
 
 
+
+      const labels5 = [
+        '이동혁',
+        '이마크',
+        '이제노',
+        '나재민',
+        '황인준',
+      ];
+    
+      const data5 = {
+        labels: labels5,
+        datasets: [{
+          label: '상품 판매 수',
+          backgroundColor: ["#ff3366", "#a5ea89","#89a5ea","#336633","#59227c","#333366"],
+          borderColor: 'rgb(255, 255, 255)',
+          data: [20, 10, 5, 32, 20],
+        }],
+      };
+    
+      const config5 = {
+        type: 'bar',
+        data: data5,
+        options: {
+          indexAxis: 'y',
+      }
+    };
+
+
       
       const myChart1 = new Chart(
         document.getElementById('sales'),
@@ -138,5 +166,10 @@ document.addEventListener('DOMContentLoaded',()=>{
       const myChart4 = new Chart(
         document.getElementById('name'),
         config4
+      );
+
+      const myChart5 = new Chart(
+        document.getElementById('bar'),
+        config5
       );
 })

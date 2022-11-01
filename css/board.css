@@ -27,11 +27,10 @@ canvas{
 }
 
 .pie{
-    width: 30%;
+    width: 27%;
 }
 
-.on{
-width: 500px;
-height: 500px;
-background-color: wheat;
+.horizontal{
+    width: 70%;
+    height: 20%;
 }
