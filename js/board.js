@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded',()=>{
           data: [20, 10, 5, 32, 12, 20, 15],
         }]
       };
-     
     
       const config2 = {
         type: 'bar',
@@ -85,9 +84,6 @@ document.addEventListener('DOMContentLoaded',()=>{
           data: [10, 30, 15, 22, 8, 12, 5],
         }],
       };
-        
-      
-     
     
       const config3 = {
         type: 'bar',
@@ -97,19 +93,50 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
+      const labels4 = [
+        '이동혁',
+        '이마크',
+        '이제노',
+        '나재민',
+        '황인준',
+        '종천러',
+      ];
+    
+      const data4 = {
+        labels: labels4,
+        datasets: [{
+          label: '상품 판매 수',
+          backgroundColor: ["#ff3366", "#a5ea89","#89a5ea","#336633","#59227c","#333366"],
+          borderColor: 'rgb(255, 255, 255)',
+          data: [20, 10, 5, 32, 12, 20],
+        }],
+      };
+    
+      const config4 = {
+        type: 'pie',
+        data: data4,
+        options: {}
+      };
+
+
       
       const myChart1 = new Chart(
-        document.getElementById('myChart1'),
+        document.getElementById('sales'),
         config1
       );
 
       const myChart2 = new Chart(
-        document.getElementById('myChart2'),
+        document.getElementById('preference'),
         config2
       );
 
       const myChart3 = new Chart(
-        document.getElementById('myChart3'),
+        document.getElementById('comparison'),
         config3
+      );
+
+      const myChart4 = new Chart(
+        document.getElementById('name'),
+        config4
       );
 })
