@@ -135,6 +135,7 @@ document.addEventListener('DOMContentLoaded',()=>{
           backgroundColor: ["#ff3366", "#a5ea89","#89a5ea","#336633","#59227c","#333366"],
           borderColor: 'rgb(255, 255, 255)',
           data: [20, 10, 5, 32, 20],
+        
         }],
       };
     
@@ -143,6 +144,10 @@ document.addEventListener('DOMContentLoaded',()=>{
         data: data5,
         options: {
           indexAxis: 'y',
+          maxBarThickness: 50,
+          tooltop:{
+            bodySpacing: 50,
+          }
       }
     };
 
