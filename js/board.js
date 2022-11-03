@@ -23,7 +23,9 @@ document.addEventListener('DOMContentLoaded',()=>{
       const config1 = {
         type: 'line',
         data: data1,
-        options: {}
+        options: {
+          
+        }
       };
 
 
@@ -53,7 +55,9 @@ document.addEventListener('DOMContentLoaded',()=>{
       const config2 = {
         type: 'bar',
         data: data2,
-        options: {}
+        options: {
+          maxBarThickness: 30,
+        }
       };
 
 
@@ -88,7 +92,9 @@ document.addEventListener('DOMContentLoaded',()=>{
       const config3 = {
         type: 'bar',
         data: data3,
-        options: {}
+        options: {
+          maxBarThickness: 30,
+        }
       };
 
 
@@ -146,7 +152,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         data: data5,
         options: {
           indexAxis: 'y',
-          maxBarThickness: 50,
+          maxBarThickness: 30,
           maintainAspectRatio :false
           
       }
