@@ -115,7 +115,9 @@ document.addEventListener('DOMContentLoaded',()=>{
       const config4 = {
         type: 'pie',
         data: data4,
-        options: {}
+        options: {
+          maintainAspectRatio :false,
+        }
       };
 
 
@@ -145,9 +147,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         options: {
           indexAxis: 'y',
           maxBarThickness: 50,
-          tooltop:{
-            bodySpacing: 50,
-          },
+          maintainAspectRatio :false
           
       }
     };
