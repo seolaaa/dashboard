@@ -147,7 +147,8 @@ document.addEventListener('DOMContentLoaded',()=>{
           maxBarThickness: 50,
           tooltop:{
             bodySpacing: 50,
-          }
+          },
+          
       }
     };
 
