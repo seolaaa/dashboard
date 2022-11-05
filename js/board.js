@@ -128,6 +128,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
+
       const labels5 = [
         '이동혁',
         '이마크',
@@ -159,6 +160,40 @@ document.addEventListener('DOMContentLoaded',()=>{
     };
 
 
+
+
+    const labels6 = [
+      'Cake',
+      'Croissant',
+      'Cookie',
+      'Pie',
+      'Croffle',
+    ];
+  
+    const data6 = {
+      labels: labels6,
+      datasets: [{
+        label: '카페 디저트 선호도',
+        // borderColor: 'rgb(255, 255, 255)',
+        data: [20, 10, 5, 32, 20],
+      
+      }],
+    };
+  
+    const config6 = {
+      type: 'line',
+      data: data6,
+      options: {
+        indexAxis: 'x',
+        maxBarThickness: 30,
+        maintainAspectRatio :false,
+        lineTension : 0,
+        pointBackgroundColor :'rgb(255, 255, 255)',
+        
+    }
+  };
+
+
       
       const myChart1 = new Chart(
         document.getElementById('sales'),
@@ -183,5 +218,10 @@ document.addEventListener('DOMContentLoaded',()=>{
       const myChart5 = new Chart(
         document.getElementById('bar'),
         config5
+      );
+
+      const myChart6 = new Chart(
+        document.getElementById('dessert'),
+        config6
       );
 })

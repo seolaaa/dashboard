@@ -4,7 +4,7 @@
 
 }
 
-#chart-body{
+#chart-body,#chart-middle-body,#chart-last-body{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -19,12 +19,7 @@ canvas{
     background-color: white;
 }
 
-#chart-middle-body{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-}
+
 
 .pie{
   width: 32%;
@@ -34,4 +29,8 @@ canvas{
    width:65%;
    height: 450px;
 
+}
+.line{
+    width: 50%;
+    height: 450px;
 }
