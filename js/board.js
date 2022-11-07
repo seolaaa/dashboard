@@ -187,7 +187,8 @@ document.addEventListener('DOMContentLoaded',()=>{
         maxBarThickness: 30,
         maintainAspectRatio :false,
         BackgroundColor :'rgb(220, 225, 230)',
-
+        borderColor: 'rgb(0, 225, 230)',
+        fill: true,
         
     }
   };
