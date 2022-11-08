@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded',()=>{
       labels: labels6,
       datasets: [{
         label: '카페 디저트 선호도',
-        data: [20, 10, 5, 32, 20],
+        data: [20, 10, 15, 25, 15],
       
       }],
     };
@@ -186,9 +186,10 @@ document.addEventListener('DOMContentLoaded',()=>{
         indexAxis: 'x',
         maxBarThickness: 30,
         maintainAspectRatio :false,
-        BackgroundColor :'rgb(220, 225, 230)',
-        borderColor: 'rgb(0, 225, 230)',
-        fill: true,
+        BackgroundColor :'rgb(255, 147, 187)',
+        borderColor: 'rgb(255, 147, 187)',
+        fill: false,
+        pointRadius: 0,
         
     }
   };
