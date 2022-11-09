@@ -4,8 +4,8 @@
 
 }
 
-#chart-body,#chart-middle-body,#chart-last-body{
-    width: 100%;
+#chart-body,#chart-circle-body,#chart-bar-body{
+    width: 60%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
@@ -26,11 +26,11 @@ canvas{
 }
 
 .horizontal{
-   width:65%;
+   width:45%;
    height: 450px;
 
 }
 .line{
-    width: 50%;
+    width: 45%;
     height: 450px;
 }
