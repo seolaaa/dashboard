@@ -127,6 +127,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     data: data3,
     options: {
     maxBarThickness: 30,
+    maintainAspectRatio :false,
     }
   };
   /*x축 바 차트 끝*/
@@ -135,24 +136,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
-
-
-
-  
-
-
-
-
- 
-  
-
-
-
-
-
-
-      
-    
       const myChart1 = new Chart(
         document.getElementById('doughnut'),
         config7
