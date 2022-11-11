@@ -41,4 +41,13 @@ canvas{
     height: 250px;
     background: rgb(255, 172, 172);
 }
+
+table{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+td{
+   
+}
 /*테이블부분끝*/
