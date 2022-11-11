@@ -1,3 +1,4 @@
+/*차트부분*/
 #all-body{
     width: 100%;
     height: 100%;
@@ -6,11 +7,6 @@
 
 canvas{
     background-color: white;
-}
-
-#map-body{
-    width: 50%;
-    background-color: yellow;
 }
 
 #all-chart-body{
@@ -29,3 +25,20 @@ canvas{
    width: 45%;
    height: 350px;
 }
+/*차트부분끝*/
+
+/*맵부분*/
+#map-body{
+    width: 50%;
+    background-color: rgb(128, 128, 128);
+}
+/*맵부분끝*/
+
+
+/*테이블부분*/
+#table-body{
+    width: 100%;
+    height: 250px;
+    background: rgb(255, 172, 172);
+}
+/*테이블부분끝*/

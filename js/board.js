@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
   /*도넛차트*/
-    const labels7 = [
+    const labels1 = [
       '이동혁',
       '이마크',
       '이제노',
@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded',()=>{
       '황인준',
     ];
 
-    const data7 = {
-      labels: labels7,
+    const data1 = {
+      labels: labels1,
       datasets: [{
         label: '상품 판매 수',
         backgroundColor: ["#ff3366", "#a5ea89","#89a5ea","#336633","#59227c","#333366"],
@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded',()=>{
       }],
     };
 
-    const config7 = {
+    const config1 = {
       type: 'doughnut',
-      data: data7,
+      data: data1,
       options: {
         maintainAspectRatio :false,
         
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
   /*파이차트*/
-  const labels4 = [
+  const labels2 = [
     '이동혁',
     '이마크',
     '이제노',
@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     '종천러',
   ];
 
-  const data4 = {
-    labels: labels4,
+  const data2 = {
+    labels: labels2,
     datasets: [{
       label: '상품 판매 수',
       backgroundColor: ["#ff3366", "#a5ea89","#89a5ea","#336633","#59227c","#333366"],
@@ -53,9 +53,9 @@ document.addEventListener('DOMContentLoaded',()=>{
     }],
   };
 
-  const config4 = {
+  const config2 = {
     type: 'pie',
-    data: data4,
+    data: data2,
     options: {
       maintainAspectRatio :false,
     }
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
   
   /*y축 바 차트*/
-  const labels5 = [
+  const labels3 = [
     '이동혁',
     '이마크',
     '이제노',
@@ -72,8 +72,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     '황인준',
   ];
 
-  const data5 = {
-    labels: labels5,
+  const data3 = {
+    labels: labels3,
     datasets: [{
       label: '상품 판매 수',
       backgroundColor: ["#ff3366", "#a5ea89","#89a5ea","#336633","#59227c","#333366"],
@@ -83,9 +83,9 @@ document.addEventListener('DOMContentLoaded',()=>{
     }],
   };
 
-  const config5 = {
+  const config3 = {
     type: 'bar',
-    data: data5,
+    data: data3,
     options: {
       indexAxis: 'y',
       maxBarThickness: 30,
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 /*x축 바 차트*/
-  const labels3 = [
+  const labels4 = [
     'January',
     'February',
      'March',
@@ -105,8 +105,8 @@ document.addEventListener('DOMContentLoaded',()=>{
      'June',
     ];
     
-  const data3 = {
-    labels: labels3,
+  const data4 = {
+    labels: labels4,
     datasets: [{
       label: '2022',
       backgroundColor: 'rgb(204, 102, 153)',
@@ -122,9 +122,9 @@ document.addEventListener('DOMContentLoaded',()=>{
     }],
   };
     
-  const config3 = {
+  const config4 = {
     type: 'bar',
-    data: data3,
+    data: data4,
     options: {
     maxBarThickness: 30,
     maintainAspectRatio :false,
@@ -135,29 +135,27 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 
-
-      const myChart1 = new Chart(
-        document.getElementById('doughnut'),
-        config7
-      );
+/*차트 실행*/
+  const myChart1 = new Chart(
+    document.getElementById('doughnut'),
+    config1
+  );
       
+  const myChart2 = new Chart(
+    document.getElementById('name'),
+    config2
+  );
 
-      const myChart2 = new Chart(
-        document.getElementById('name'),
-        config4
-      );
+  const myChart3 = new Chart(
+    document.getElementById('bar'),
+    config3
+  );
 
-
-      const myChart3 = new Chart(
-        document.getElementById('bar'),
-        config5
-      );
-
-
-      const myChart4 = new Chart(
-        document.getElementById('comparison'),
-        config3
-      );
+  const myChart4 = new Chart(
+    document.getElementById('comparison'),
+    config4
+  );
+  /*차트실행끝*/
 
      
      
