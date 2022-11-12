@@ -44,10 +44,34 @@ canvas{
 
 table{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
 }
-td{
+
+tbody{
+    width: 100%;
+    
+}
+tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 50%;
    
 }
+th,td{
+    width: 16.66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    
+    
+}
+
+.table-title{
+    background-color: antiquewhite;
+}
+
 /*테이블부분끝*/
