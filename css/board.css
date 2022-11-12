@@ -17,12 +17,19 @@ canvas{
 #chart-circle-body,#chart-bar-body{
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+    justify-content: space-around;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#chart-circle-body{
+    padding-top: 20px;
+}
+#chart-bar-body{
+    padding-bottom: 20px;
 }
 
 .canvas-body{
-   width: 45%;
+   width: 48%;
    height: 350px;
 }
 /*차트부분끝*/
