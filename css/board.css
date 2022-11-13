@@ -45,14 +45,17 @@ canvas{
 /*테이블부분*/
 #table-body{
     width: 100%;
-    height: 250px;
-    background: rgb(255, 172, 172);
+    height: 200px;
+    background: rgb(255, 255, 255);
 }
 
 table{
     width: 100%;
     height: 100%;
     display: flex;
+    border-collapse:collapse;
+    border: solid 1px rgb(182, 182, 182);
+   
 }
 
 tbody{
@@ -65,6 +68,7 @@ tr{
     justify-content: space-around;
     text-align: center;
     height: 50%;
+
    
 }
 th,td{
@@ -72,13 +76,24 @@ th,td{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 1px black;
+    border: solid 1px rgb(182, 182, 182);
+    font:normal 20px 'Noto Sans';
+    border-collapse:collapse;
+ 
     
     
 }
 
+td{
+    font-size: 18px;
+}
+
+th{
+    font-weight: bold;
+}
+
 .table-title{
-    background-color: antiquewhite;
+    background-color: #f8f8f8;
 }
 
 /*테이블부분끝*/
