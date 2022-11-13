@@ -37,7 +37,16 @@ canvas{
 /*맵부분*/
 #map-body{
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(128, 128, 128);
+}
+
+#map{
+    width: 95%;
+    height: 95%;
+    background: red;
 }
 /*맵부분끝*/
 
@@ -79,9 +88,6 @@ th,td{
     border: solid 1px rgb(182, 182, 182);
     font:normal 20px 'Noto Sans';
     border-collapse:collapse;
- 
-    
-    
 }
 
 td{
